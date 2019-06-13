@@ -1,0 +1,35 @@
+/* styles for my aia tables */  
+
+table {
+    width:100%;
+    margin:auto;
+    border-collapse: collapse;
+    align-self: center;
+}
+
+td,th {
+  border:1px solid #ccc;
+  padding:.5em 1em; /* Top and Bottom -- Left and Right */
+}
+
+table.client {
+    border:1px solid gold;
+    margin-bottom: 2em;
+}
+
+table.client th {
+    text-align: left;
+    color:red;
+}
+
+table.audience th {
+    background-color:yellow;
+}
+
+tr:nth-of-type(odd) {
+    background-color:#eeeccc;
+}
+
+td.mid {
+    text-align: center;
+}
