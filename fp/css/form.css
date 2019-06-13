@@ -1,0 +1,18 @@
+form>div {
+    margin:1em;
+}
+
+div.contactnello {
+   width: 100%; 
+}
+
+
+div.contact {
+    width: 100%;
+    text-align: center;
+    align-self: center;
+}
+
+.column {
+    width: auto;
+}

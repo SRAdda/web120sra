@@ -1,0 +1,434 @@
+/* NELLO ADDABBO Styles */
+
+/* Global rules */
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+.background {
+    background-color: white;
+    background-image: url(../images/heidi1440x1064.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: block;
+    position: absolute;
+    background-position: center top;
+    max-width: 1440px;
+    opacity: .5;
+    z-index: -4;
+    }
+
+html,body {
+    font-family: 'Work Sans', sans-serif;
+    padding:0px;
+    margin:0;
+}    
+
+h1 {
+    font-family: 'Taviraj', serif;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+div.wrapper {
+    max-width: 1440px;
+    align-self: center;
+}
+
+div#wrapperHeader {
+    width: 100%;
+    height: 134px;
+    text-align: center;
+    background-color: #333;
+}
+
+div#wrapperHeader div#header {
+    height: 134px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+}
+
+div#wrapperHeader div#header img {
+    width:312px;
+    height: 134px;
+    margin: 0 auto;
+    border: 0px;
+    text-align: center;
+    align-self: center;
+}
+
+nav {
+    text-align: center; 
+}
+
+header  {
+    text-align: center; 
+    margin:0%;
+    padding:0;
+    background-color: #333;
+    text-decoration: none;
+    text-align: center;
+}
+
+.header {
+    width: 312px;
+    height: 134px;
+    text-align: center;
+    background: #333;
+    position: relative;
+}
+
+h2, h3 {
+    margin-left:1em;
+    font-family: 'Taviraj', serif;
+    font-weight: normal;
+    text-align: left;
+    line-height: 1em;
+}
+
+p.b {
+    white-space: normal;
+}
+
+.label {
+    text-align: left;
+    background-color: white;
+}
+
+fieldset {
+    width: 325px;
+    background-color: white;
+    text-align: left;
+    margin-left: 5px;
+}
+
+legend {
+    width: 100%;
+    background-color: white;
+    text-align: left;
+}
+
+.map {
+    float: left;
+    margin: 1px;
+    border: none;
+}
+
+#map {
+    background-color: white;
+}
+
+.disclaimer {
+   text-align: left; 
+}
+
+.floatleft {
+    float: left;
+}
+
+.floatcenter {
+    float: inherit;
+}
+
+.floatright {
+    text-align: center;
+}
+
+p {
+    font-size:1.2em;
+    margin: 1em;
+}
+
+div.center {
+    width: 100%;
+    text-align: center;
+}
+
+.desktop {
+    width: 70%;
+}
+
+/* START Left Column styles */
+.column {
+    float:left;
+    width:70%;
+    text-align: left;
+    margin: 0;
+}
+
+section.column {
+    max-width: 1000px;
+}
+
+tr:hover {
+    background-color: #fbe09b;
+    border-bottom-color: #daa520;
+}
+
+/* END Left Column styles */
+/* START Right Column styles */
+aside {
+    width:310px;
+    color: black;
+    align-content: center;
+    align-self: center;
+}
+
+.address {
+    width: inherit;
+    padding: 10px;
+    text-align: center;
+}
+
+/* END Right Column styles */
+
+.fullwidth {
+    width:100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #b8860b;
+    text-decoration: none;
+}
+
+img {
+    width:100%;
+    border:0px solid #000; /* width style color */
+}
+
+.fb-badge {
+    width: 120px;
+    height: 136px;
+}
+
+.instagram {
+    width: 137px;
+    height: 24px;
+}
+
+div.gallery {
+    text-align: center;
+}
+
+figure {
+    display: inline-block;
+    margin:0;
+}
+
+.buttons {
+    display: inline-block;
+    margin: 0;
+}
+
+#main {
+    margin: 0;
+    padding: 0;
+    margin: 0;
+}
+
+/* START - EMBED RESPONSIVELY STYLES */
+.embed-container { 
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 100%;
+    overflow: hidden;
+    max-width: 100%; 
+} 
+
+div.quote {
+    max-width: 630px;
+    font-size: 1em;
+    text-align: left;    
+    background: rgba(255, 255, 255, 0.3);
+    color: black;
+    }
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 1em;
+    color: black;
+    font-size: small;
+}
+
+.center {
+    align-self: center;
+}
+
+/* End Global Rules */
+
+/* DESKTOP LAPTOP*/
+@media all and (min-width:1280px) {
+        
+    div.wrapper {
+        width: 100%;
+        margin: auto;
+    }
+    
+    h1 {
+        width: 100%;
+        padding-left: 1%;
+        text-align: left;
+    }
+    
+    img.desktop {
+        float: left;
+        margin-right: 0em;
+    }
+   
+    img.tablet, img.phone {
+        display: none;
+    }
+
+    p {
+        margin: 1em;
+    }
+
+    aside {
+        float:right;
+        width:310px;
+        color: black;
+        align-content: center;
+    }
+}
+
+/* TABLET */
+@media all and (min-width:768px) and (max-width:1279px) {
+    div.wrapper {
+        width: 100%;
+        margin: auto;
+    }
+    
+    h1 {
+        width: 99%;
+        text-align: center;
+        margin-top: 0px;
+        font-size: 1.5em;
+        line-height: normal;
+    }
+    
+    .quote {
+        font-size: 1em;
+        padding: 0px;
+    }
+    
+    img.desktop, img.phone {
+        display: none;
+    }
+
+    .map {
+        width:50%;
+    }
+
+    aside {
+        float:right;
+        color: black;
+        align-content: center;
+    }
+}   
+
+/* PHONE 425 */
+@media all and (max-width:767px) {
+    .wrapper {
+     background-color: white; 
+     width: 100%;
+    }
+    
+    div.wrapper {
+        width: 100%;
+        align-content: center;
+        text-align: center;
+    }
+    
+    .column {
+        width: 100%;
+    }
+    
+    h1.pageID {
+        width: 99%;
+        text-align: center;
+        margin-top: 0px;
+        font-size: 1.5em;
+        line-height: normal;
+        background-color: white;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+    
+    .map {
+        width:50%;
+        margin: 0;
+    }
+
+    .quote {
+        width: 100%;
+        font-size: 1em;
+    }
+
+    img.phone {
+        width: 100%;
+    }
+    
+    p.profile {
+        text-align: left;
+    }
+
+    fieldset {
+        width: 100%;
+        background-color: white;
+        text-align: left;
+        border-color: white;
+    }
+
+    img.desktop, img.tablet {
+        display: none;
+    }
+
+    aside {
+        width: 100%;
+        align-content: center;
+        background-color: white;
+        margin: 0 0 0 0;
+    }
+    
+    .map {
+        float: left;
+        width: 100%;
+        margin: 0;
+    }
+    
+    .address {
+        width: 98%;
+        float: none;
+    }
+    
+    figure {
+        text-align: center;
+    }
+}
+
+/* PHONE 375 */
+@media all and (max-width:400px) {
+          
+    aside {
+        width: 100%;
+    }
+}   
+
+/* PHONE 320 */
+@media all and (max-width:350px) {
+    
+    aside {
+        width: 100%;
+    }
+
+    footer {
+        font-size: .75em;
+    }
+}
