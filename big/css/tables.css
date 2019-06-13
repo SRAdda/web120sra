@@ -1,0 +1,145 @@
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+}
+.heading_align{ 
+    text-align: center;
+    padding: 0;
+}
+th {
+    border: 1px solid black
+    border-bottom: 3px solid black
+    text-align: center;
+}
+td, tr {
+    border: 1px solid black;
+    text-align: left;
+    padding: 1px;
+  }
+tr:nth-child(even) {
+    background-color: #fcf5fa;
+}
+
+border: 1px solid black;
+
+
+
+
+
+/* add table styles */
+table {
+   border: 1px solid black;
+}
+th {
+   border: 1px solid black;
+}
+td {
+   border: 1px solid black;
+}
+
+
+
+.center {
+	text-align: center;
+}
+header h2 {
+	padding-bottom: .2em;
+	border-bottom: 1px solid gray;
+}
+aside {
+	padding: 1em;
+	background:rgb(83, 104, 138);
+	color: white;
+	margin-bottom: 1em;
+}
+aside h4 {
+	color: white;
+}
+footer {
+	border-top: 1px solid gray;
+	text-align: center;
+	font-size: .8em;
+	line-height: 4em;
+	margin-top: 1em;
+}
+blockquote {
+	font-style: italic;
+}
+.flowRight {
+	float: right;
+	margin-left: 10px;
+}
+.flowLeft {
+	float: left;
+	margin-right: 10px;
+}
+/*tab styles*/
+aside.languages {
+	font: .8em "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background:#2e2e2e;
+	padding: 25px;
+	padding-top: 1em;
+	float: right;
+	width: 500px;
+	margin-left: 1em;
+}
+
+.languages h3 {
+	font-weight: normal;
+	color: white;
+	font-size: 1.6em;
+	margin-bottom:.5em;
+}
+
+#tabContainer h4 {
+	color: rgb(83, 104, 138);
+	font-size: 2em;
+}
+
+#tabs{
+	height:30px;
+	overflow:hidden;
+}
+
+#tabs > ul{
+	font: 1em;
+	list-style:none;
+}
+#tabs ul, #tabs li {
+	margin:0;
+	padding:0;
+}
+
+#tabs > ul > li{
+	margin:0 2px 0 0;
+	padding:7px 10px;
+	display:block;
+	float:left;
+	color:#FFF;
+	border-top-left-radius:4px;
+	border-top-right-radius: 4px;
+	background: #CCC;
+}
+
+#tabs > ul > li:hover{
+	background: white; 
+	cursor:pointer;
+}
+
+#tabs > ul > .active{
+	background: white; /* old browsers */
+	cursor:pointer;
+}
+
+#containers div {
+	background: white;
+	padding:10px 10px 25px;
+	margin:0;
+	color:#333;
+}
+#tabs a {
+	text-decoration: none;
+	color: black;
+}
